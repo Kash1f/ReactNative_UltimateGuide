@@ -8,7 +8,12 @@ const GET_API = () => {
     //UI render hone se pehle data API se fetch ho k achuka ho
 
     useEffect (()=>{
-
+        fetch('http://10.0.2.2:3000/users').then((response)=>{
+            response.json().then((result)=>{
+                console.log(result);
+                
+            });
+        });
     },[]);
 
 
