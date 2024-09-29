@@ -1,5 +1,6 @@
 import { View, Text } from 'react-native'
 import React, { useEffect } from 'react'
+import axios from 'axios';
 
 const GET_API = () => {
 
@@ -8,12 +9,13 @@ const GET_API = () => {
     //UI render hone se pehle data API se fetch ho k achuka ho
 
     useEffect (()=>{
-        fetch('http://10.0.2.2:3000/users').then((response)=>{
-            response.json().then((result)=>{
-                console.log(result);
-                
-            });
-        });
+       
+
+      axios.get("https://api.example.com/data");
+      .then(response => console.log(data));
+      .catch(error => console.log(error));
+      )
+
     },[]);
 
 
@@ -24,4 +26,25 @@ const GET_API = () => {
   )
 }
 
-export default GET_API
+export default GET_API;
+
+
+
+
+//old code:
+
+/*
+
+
+ fetch('http://10.0.2.2:3000/users').then((response)=>{
+            response.json().then((result)=>{
+                console.log(result);
+                
+            });
+        });
+
+
+
+
+
+*/
