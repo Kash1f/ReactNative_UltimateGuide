@@ -1,7 +1,10 @@
 import { Button, StyleSheet, Text, TextInput, View } from 'react-native'
-import React from 'react'
+import React, { useState } from 'react'
 
 const POST_API = () => {
+
+    const [formData, setFormData] = useState({id: '', name:'', email:''})
+
   return (
     <View>
       <Text style={styles.textStyle}>POST API Method</Text>
