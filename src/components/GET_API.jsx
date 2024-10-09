@@ -14,21 +14,18 @@ const GET_API = () => {
       // console.log(result.data);
       setMyData(result.data);  //myData me data ko store karwaiga jab result.data aaiga, array wale data ko myData me update karwa dega setMyData
     })
-    .catch(error => {
-      console.log(error);
-      
-    })
+   
   }, []);
 
   return (
     <View>
-      <Text style={{fontSize: 24, marginBottom:1}}>GET API Method</Text>
-      {
-        //map will let us iterate over the array of objects
-        myData.map((item)=>{
-          <Text>{item.name}</Text>
-        })
-      }
+      <Text style={{fontSize: 24, marginBottom:10}}>GET API Method</Text>
+      
+        {/*map will let us iterate over the array of objects */}
+        {myData.map((item)=>(
+          <Text key={item.id}style={{fontSize: 20, marginBottom:10}}>{item.name}</Text>
+        ))}
+      
     </View>
   );
 };
