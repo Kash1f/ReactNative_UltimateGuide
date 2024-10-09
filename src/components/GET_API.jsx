@@ -14,7 +14,6 @@ const GET_API = () => {
       // console.log(result.data);
       setMyData(result.data);  //myData me data ko store karwaiga jab result.data aaiga, array wale data ko myData me update karwa dega setMyData
     })
-   
   }, []);
 
   return (
