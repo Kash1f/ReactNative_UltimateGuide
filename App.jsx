@@ -5,6 +5,7 @@ import AnimatedCardFlip from './src/components/AnimatedCardFlip'
 import AsyncStorageExample from './src/components/AsyncStorageExample'
 import POST_API from './src/components/POST_API'
 import LoginForm from './src/components/LoginForm'
+import DELETE_API from './src/components/DELETE_API'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       {/* <LoginForm/> */}
       {/* <GET_API/> */}
       <POST_API/>
+      {/* <DELETE_API/> */}
       {/* <AnimatedCardFlip/> */}
       {/* <AsyncStorageExample/> */}
      

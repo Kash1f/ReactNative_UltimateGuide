@@ -10,6 +10,8 @@ const GET_API = () => {
   //UI render hone se pehle data API se fetch ho k achuka ho
 
   useEffect(() => {
+
+    //if we write http://localhost/3000 then emulator will recognize it as localhost of emulator, therefore we will write the following address so that it gets from our pc
     axios.get('http://10.0.2.2:3000/users').then(result => {
       // console.log(result.data);
       setMyData(result.data);  //myData me data ko store karwaiga jab result.data aaiga, array wale data ko myData me update karwa dega setMyData
