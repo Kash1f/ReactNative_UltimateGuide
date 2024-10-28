@@ -7,6 +7,7 @@ import POST_API from './src/components/POST_API'
 import LoginForm from './src/components/LoginForm'
 import DELETE_API from './src/components/DELETE_API'
 import FlatListScreen from './src/components/FlatListScreen'
+import HideShowToggle from './src/components/HideShowToggle'
 
 const App = () => {
   return (
@@ -17,7 +18,8 @@ const App = () => {
       {/* <DELETE_API/> */}
       {/* <AnimatedCardFlip/> */}
       {/* <AsyncStorageExample/> */}
-      <FlatListScreen/>
+      {/* <FlatListScreen/> */}
+      <HideShowToggle/>
      
     </View>
   )
