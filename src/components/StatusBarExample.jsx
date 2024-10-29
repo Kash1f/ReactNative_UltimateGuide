@@ -10,7 +10,7 @@ const StatusBarExample = () => {
         hidden={false}
      
       />
-      <Text>StatusBar</Text>
+      <Text style={styles.text}>StatusBar</Text>
     </View>
   );
 };
@@ -24,6 +24,9 @@ const styles = StyleSheet.create({
     alignItems : 'center',
     backgroundColor : '#6200fe'
   },
+    text : {
+      color: '#FFF'
+    }
 })
 /*
 
