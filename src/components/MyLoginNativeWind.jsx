@@ -7,6 +7,6 @@ const MyLoginNativeWind = () => {
       <Text>MyLoginNativeWind</Text>
     </View>
   )
-}
+};
 
 export default MyLoginNativeWind
