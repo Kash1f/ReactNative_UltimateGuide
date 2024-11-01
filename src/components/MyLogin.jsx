@@ -11,7 +11,9 @@ const MyLoginNativeWind = () => {
       placeholder='Enter your email'
       placeholderTextColor={'#ccc'}
       className='w-full h-12 bg-gray-800 rounded-lg text-white px-4 mb-4'
-      value=''
+      value={email}
+      onChangeText={setEmail}
+      keyboardType='email-address'
       />
     </View>
   )
