@@ -36,7 +36,7 @@ const MyLoginNativeWind = () => {
       <View className="mt-6 flex-row justify-center">
         <Text className="text-indigo-300">Don't Have an Account?</Text>
         <TouchableOpacity>
-          <Text className="text-indigo-300">Sign Up</Text>
+          <Text className="text-indigo-300"> wSign Up</Text>
         </TouchableOpacity>
       </View>
     </View>
