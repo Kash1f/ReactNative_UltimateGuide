@@ -10,7 +10,7 @@ const MyLoginNativeWind = () => {
       <TextInput
         placeholder="Enter your email"
         placeholderTextColor={'#ccc'}
-        className="w-full h-12 bg-gray-800 rounded-lg text-white px-4 mb-4"
+        className="w-80 h-12 bg-gray-800 rounded-lg text-white px-4 mb-4"
         value={email}
         onChangeText={setEmail}
         keyboardType="email-address"
@@ -19,13 +19,13 @@ const MyLoginNativeWind = () => {
       <TextInput
         placeholder="Enter your password"
         placeholderTextColor={'#ccc'}
-        className="w-full h-12 bg-gray-800 rounded-lg text-white px-4 mb-4"
+        className="w-80 h-12 bg-gray-800 rounded-lg text-white px-4 mb-4"
         value={password}
         onChangeText={setPassword}
         keyboardType="password"
         secureTextEntry={true}
       />
-      <TouchableOpacity className="w-full bg-indigo-500 py-3 rounded">
+      <TouchableOpacity className="w-80 bg-indigo-500 py-3 rounded">
         <Text className="text-center text-white text-lg font-semibold">
           Login
         </Text>
@@ -36,7 +36,7 @@ const MyLoginNativeWind = () => {
       <View className="mt-6 flex-row justify-center">
         <Text className="text-indigo-300">Don't Have an Account?</Text>
         <TouchableOpacity>
-          <Text className='text-indigo-300'>Sign Up</Text>
+          <Text className="text-indigo-300">Sign Up</Text>
         </TouchableOpacity>
       </View>
     </View>
