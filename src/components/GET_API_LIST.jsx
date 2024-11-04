@@ -29,7 +29,8 @@ const GET_API_LIST = () => {
       <Text>Users</Text>
       <FlatList
       data={myData}
-      renderItem={}
+      renderItem={renderItem}
+      keyExtractor={(item, index) => index.toString()}
       />
     </View>
   )
