@@ -14,7 +14,17 @@ import MyLogin from './src/components/MyLogin';
 const App = () => {
   return (
     <SafeAreaView className="flex-1">
-      <MyLogin/>
+      
+      <LoginForm/>
+      {/* <FlatListScreen/> */}
+      {/* <HideShowToggle/> */}
+      {/* <StatusBarExample/> */}
+      {/* <GET_API/> */}
+      {/* <POST_API/> */}
+      {/* <DELETE_API/> */}
+      {/* <MyLogin /> */}
+      {/* <AnimatedCardFlip/> */}
+      {/* <AsyncStorageExample/> */}
     </SafeAreaView>
   );
 };
