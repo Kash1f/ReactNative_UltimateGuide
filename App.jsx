@@ -15,12 +15,12 @@ const App = () => {
   return (
     <SafeAreaView className="flex-1">
       
-      <LoginForm/>
+      {/* <LoginForm/> */}
       {/* <FlatListScreen/> */}
       {/* <HideShowToggle/> */}
       {/* <StatusBarExample/> */}
       {/* <GET_API/> */}
-      {/* <POST_API/> */}
+      <POST_API/>
       {/* <DELETE_API/> */}
       {/* <MyLogin /> */}
       {/* <AnimatedCardFlip/> */}

@@ -1,14 +1,15 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StatusBar, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
 const StatusBarExample = () => {
   return (
     <View style={styles.container}>
       <StatusBar
-        barsStyle="light-content"
+        barsStyle={"light-content"}
         hidden={false}
+        backgroundColor="#6200fe"
       />
-      <Text style={styles.text}>StatusBarExample</Text>
+      <Text style={styles.text}>Status Bar</Text>
     </View>
   )
 }
@@ -23,5 +24,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#6200fe',
   },
   text: {
+    fontSize: 30,
+    color: 'white'
   }
 })
